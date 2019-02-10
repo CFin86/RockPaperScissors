@@ -1,3 +1,5 @@
+//to do manipulate the DOM
+
 const computerPlay = () => {
     const computerInput = Math.floor(Math.random() * Math.floor(3));
     if (computerInput === 0) {
