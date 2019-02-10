@@ -13,9 +13,8 @@ const computerPlay = () => {
     }
 }
 
-const humanSelection = prompt('Rock paper or scissors?');
+const lowerHumanSelection = prompt('Rock paper or scissors?'.toLowerCase(););
 
-const lowerHumanSelection = humanSelection.toLowerCase();
 const computerSelection = computerPlay();
 
 const playGame = (human, computer) => {
